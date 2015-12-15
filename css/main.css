@@ -1,0 +1,67 @@
+@import url("//fonts.googleapis.com/css?family=Crimson+Text");
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  font-size: 18px;
+}
+
+h1, .masthead-brand {font-family: "Crimson Text", Times, serif;}
+
+.home h1 {font-size:4em;letter-spacing: -2px;word-spacing: -2px;}
+
+.modal-content {
+    color: #333;
+}
+
+.modal-header {
+	text-shadow: none;
+}
+
+.modal-body, .modal-footer {
+	font-weight: normal;
+	text-shadow: none;
+	text-align: left;
+}
+
+blockquote {
+	border-left:none;
+	padding: 0 20px;
+	margin:0 0 10px;
+	font-size:inherit;
+}
+
+.home {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg-home.jpg") no-repeat top center fixed;
+}
+
+.secondary h1 {
+  text-align: left;
+}
+
+album img {
+  cursor: pointer;
+}
+
+album img:hover {
+    box-shadow: 0 0 2em #666;
+}
+
+.cover a {
+  text-decoration: underline;
+}
+
+.music h2 {
+  font-size:1em;
+}
+
+.music button {
+    margin: 1em 2% 0 2%;
+}
+
+@media (max-width: 992px) {
+  .secondary h1 {
+    text-align: center;
+  }
+}

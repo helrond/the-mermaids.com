@@ -34,7 +34,33 @@ blockquote {
 
 .home {
 	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg-home.jpg") no-repeat top center fixed;
+  -webkit-animation: fadein 1s; /* Safari and Chrome */
+  -moz-animation: fadein 1s; /* Firefox */
+  -o-animation: fadein 1s; /* Opera */
+  animation: fadein 1s;
 }
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}​
 
 .secondary h1 {
   text-align: left;
@@ -50,6 +76,10 @@ album img:hover {
 
 .cover a {
   text-decoration: underline;
+}
+
+.cover h2 a {
+  text-decoration: none;
 }
 
 .music h2 {

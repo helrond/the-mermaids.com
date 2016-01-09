@@ -73,10 +73,6 @@ album img:hover {
   font-size:1em;
 }
 
-.music button {
-    margin: 1em 2% 0 2%;
-}
-
 .mastfoot.music, .masthead.music {
   position: relative;
 }

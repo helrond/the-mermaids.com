@@ -41,12 +41,17 @@ blockquote {
   text-align: left;
 }
 
-.about {
+.about, .music ol, .music p {
   text-align: left;
 }
 
-.about p {
+.about p, .music p, .music ol {
   font-size: 16px;
+}
+
+.site-wrapper-inner.music {
+  padding-top: 5em;
+  vertical-align: 0;
 }
 
 album img {
@@ -76,5 +81,10 @@ album img:hover {
 @media (max-width: 992px) {
   .secondary h1 {
     text-align: center;
+  }
+
+  .site-wrapper-inner.music {
+    padding-top: 0;
+    vertical-align: middle;
   }
 }

@@ -48,7 +48,7 @@
 
         <div class="cover-container">
 
-          <div class="masthead clearfix">
+          <div class="masthead clearfix music">
             <div class="inner">
               <h3 class="masthead-brand">The Mermaids</h3>
               <nav>
@@ -65,7 +65,7 @@
           <div class="inner cover secondary music">
             <h1>Music</h1>
             <div class="row">
-              <album class="col-md-4">
+              <album class="col-md-6">
                   <div class="cover" onClick="ga('send', 'Music', 'Album', 'Show Track List', 'Amphetamines and Flowers');">
                       <img class="center-block img-responsive" src="../img/amphetamines-and-flowers-cover.jpg" data-toggle="modal" data-target="#amphetamines-and-flowers"/>
                       <h2>
@@ -73,9 +73,21 @@
                           Amphetamines &amp; Flowers
                         </a>
                       </h2>
-                  <!-- <button class="btn btn-default" href="#" target="itunes_store">iTunes</button>
-                      <button class="btn btn-default" href="#">CD Baby</button>
-                      <button class="btn btn-default" href="#">Spotify</button> -->
+                      <p>
+                        <small>
+                          <a onClick="ga('send', 'Music', 'Buy', 'iTunes', 'Amphetamines and Flowers');" href="" target="itunes_store">iTunes</a>
+                        </small>
+                      </p>
+                      <p>
+                        <small>
+                          <a onClick="ga('send', 'Music', 'Buy', 'CD Baby', 'Amphetamines and Flowers');" href="">CD Baby</a>
+                        </small>
+                      </p>
+                      <p>
+                        <small>
+                          <a onClick="ga('send', 'Music', 'Buy', 'Spotify', 'Amphetamines and Flowers');" href="">Spotify</a>
+                        </small>
+                      </p>
                   </div>
                   <div class="modal fade" id="amphetamines-and-flowers" tabindex="-1" role="dialog" aria-labelledby="amphetamines-and-flowers-title" aria-hidden="true">
                     <div class="modal-dialog modal-wide">
@@ -126,7 +138,7 @@
                     </div>
                   </div>
               </album>
-              <album class="col-md-4">
+              <album class="col-md-6">
                   <div class="cover" onClick="ga('send', 'Music', 'Album', 'Show Track List', 'Wolfe Island');">
                       <img class="center-block img-responsive" src="../img/wolfe-island-cover.jpg" data-toggle="modal" data-target="#on-wolfe-island"/>
                       <h2>
@@ -204,7 +216,10 @@
                     </div>
                   </div>
               </album>
-              <album class="col-md-4">
+            </div>
+            <div class="row">&nbsp;</div>
+            <div class="row">
+              <album class="col-md-6">
                   <div class="cover" onClick="ga('send', 'Music', 'Album', 'Show Track List', 'EP');">
                       <img class="center-block img-responsive" src="../img/mermaids-cover.jpg" data-toggle="modal" data-target="#the-mermaids-ep"/>
                       <h2>
@@ -269,7 +284,7 @@
               </album>
           </div>
 
-          <div class="mastfoot">
+          <div class="mastfoot music">
             <div class="inner">
               <small>Site design and content by The Mermaids. Cover photo courtesy of <a href="http://peoplesworld.org">@peoplesworld.org</a></small>
             </div>

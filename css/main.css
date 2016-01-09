@@ -41,6 +41,14 @@ blockquote {
   text-align: left;
 }
 
+.about {
+  text-align: left;
+}
+
+.about p {
+  font-size: 16px;
+}
+
 album img {
   cursor: pointer;
 }

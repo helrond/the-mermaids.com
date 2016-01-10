@@ -77,6 +77,71 @@ album img:hover {
   position: relative;
 }
 
+/* Home Page Ribbon */
+.css-ribbon {
+    position: relative;
+    z-index: 1;
+}
+
+.bsribbon {
+    width: 90%;
+    position: relative;
+    background: #0CC5F4;
+    color: #fff;
+    text-align: center;
+    padding: .5em;
+    margin: 2em auto 3em;
+}
+
+.bsribbon:before, .bsribbon:after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: -.5em;
+    border: 1em solid #04A8D1;
+    z-index: -1;
+}
+
+.bsribbon:before {
+    left: -2em;
+    border-right-width: 1.5em;
+    border-left-color: transparent;
+}
+
+.bsribbon:after {
+    right: -2em;
+    border-left-width: 1.5em;
+    border-right-color: transparent;
+}
+
+.bsribbon .ribbon-content:before, .bsribbon .ribbon-content:after {
+    content: "";
+    position: absolute;
+    display: block;
+    border-style: solid;
+    border-color: #088EB0 transparent transparent transparent;
+    bottom: -1em;
+}
+
+.bsribbon .ribbon-content:before {
+    left: 0;
+    border-width: 1em 0 0 1em;
+}
+
+.bsribbon .ribbon-content:after {
+    right: 0;
+    border-width: 1em 1em 0 0;
+}
+
+@media (max-width: 768px) {
+  .bsribbon:before, .bsribbon:after {
+    display: none;
+  }
+  .bsribbon {
+    border-radius: 4px;
+  }
+}
+
 @media (max-width: 992px) {
   .secondary h1 {
     text-align: center;

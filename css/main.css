@@ -77,6 +77,24 @@ album img:hover {
   position: relative;
 }
 
+/*Signup form*/
+#mc_embed_signup form {
+  padding: 0;
+}
+
+#mc_embed_signup .button {
+  background-color: #eee;
+  color: #333;
+}
+
+#mc_embed_signup .button:hover {
+  color: #eee;
+}
+
+#mc_embed_signup input.email {
+  color: #333;
+}
+
 /* Home Page Ribbon */
 .css-ribbon {
     position: relative;

@@ -114,10 +114,14 @@ album img:hover {
   padding: 0;
 }
 
-#mc_embed_signup .button {
-  background-color: #eee;
+#mc_embed_signup input.button {
   color: #333;
+  width: auto;
   margin-top: .5em;
+}
+
+#mc_embed_signup .button:hover {
+    background-color: #777;
 }
 
 #mc_embed_signup input.email {

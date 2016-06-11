@@ -1,15 +1,47 @@
 @import url("//fonts.googleapis.com/css?family=Crimson+Text");
 
+@font-face {
+  font-family: 'Archer-Semibold';
+  src: url('../fonts/Archer-Semibold.eot');
+  src: url('../fonts/Archer-Semibold.woff2') format('woff2'),
+       url('../fonts/Archer-Semibold.woff') format('woff'),
+       url('../fonts/Archer-Semibold.ttf') format('truetype'),
+       url('../fonts/Archer-Semibold.svg#Archer-Semibold') format('svg'),
+       url('../fonts/Archer-Semibold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Archer-Medium';
+  src: url('../fonts/Archer-Medium.eot');
+  src: url('../fonts/Archer-Medium.woff2') format('woff2'),
+       url('../fonts/Archer-Medium.woff') format('woff'),
+       url('../fonts/Archer-Medium.ttf') format('truetype'),
+       url('../fonts/Archer-Medium.svg#Archer-Medium') format('svg'),
+       url('../fonts/Archer-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 body {
   font-size: 18px;
+  font-family: "Archer-Medium", Times, serif;
 }
 
-h1 {font-family: "Crimson Text", Times, serif;}
+.masthead-brand {
+  color: #BFA26B;
+}
 
-.home h1 {font-size:4em;letter-spacing: -2px;word-spacing: -2px;}
+.masthead-nav > .active > a, .masthead-nav > .active > a:hover, .masthead-nav > .active > a:focus {
+    color: #fff;
+    border-bottom-color: #BFA26B;
+}
+
+.home h1 {font-size:4em;letter-spacing: -2px;word-spacing: -2px;color: #BFA26B}
 
 .modal-content {
     color: #333;
@@ -85,10 +117,7 @@ album img:hover {
 #mc_embed_signup .button {
   background-color: #eee;
   color: #333;
-}
-
-#mc_embed_signup .button:hover {
-  color: #eee;
+  margin-top: .5em;
 }
 
 #mc_embed_signup input.email {

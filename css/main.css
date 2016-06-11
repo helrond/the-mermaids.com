@@ -32,6 +32,10 @@ body {
   font-family: "Archer-Medium", Times, serif;
 }
 
+a, a:focus, a:hover {
+    color: #BFA26B;
+}
+
 .masthead-brand {
   color: #BFA26B;
 }

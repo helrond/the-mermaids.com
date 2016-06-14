@@ -141,11 +141,15 @@ album img:hover {
 .bsribbon {
     width: 90%;
     position: relative;
-    background: #0CC5F4;
+    background: #BFA26B;
     color: #fff;
     text-align: center;
     padding: .5em;
     margin: 2em auto 3em;
+}
+
+.bsribbon a {
+  color: #fff;
 }
 
 .bsribbon:before, .bsribbon:after {
@@ -153,7 +157,7 @@ album img:hover {
     position: absolute;
     display: block;
     bottom: -.5em;
-    border: 1em solid #04A8D1;
+    border: 1em solid #b79657;
     z-index: -1;
 }
 
@@ -174,7 +178,7 @@ album img:hover {
     position: absolute;
     display: block;
     border-style: solid;
-    border-color: #088EB0 transparent transparent transparent;
+    border-color: #b79657 transparent transparent transparent;
     bottom: -1em;
 }
 

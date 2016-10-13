@@ -85,7 +85,7 @@ blockquote {
   font-size: 16px;
 }
 
-.site-wrapper-inner.music {
+.site-wrapper-inner.full {
   vertical-align: 0;
 }
 
@@ -109,7 +109,7 @@ album img:hover {
   font-size:1em;
 }
 
-.mastfoot.music, .masthead.music {
+.mastfoot.full, .masthead.full {
   position: relative;
 }
 
@@ -206,7 +206,7 @@ album img:hover {
     text-align: center;
   }
 
-  .site-wrapper-inner.music {
+  .site-wrapper-inner.full {
     vertical-align: middle;
   }
 }

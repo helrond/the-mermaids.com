@@ -4,6 +4,14 @@
 body {
   font-size: 18px;
   font-family: "Crimson Text", Times, serif;
+  font-weight: normal;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+h1, h2, h3, .uppercase {
   text-transform: uppercase;
 }
 
@@ -18,17 +26,19 @@ ul.list-unstyled {
 }
 
 .masthead-brand {
-  color: #BFA26B;
+  color: #000;
 }
 
-.home h1 {
+.cover-heading {
   font-size:4em;
   font-weight: normal;
   margin-bottom: 0;
 }
 
-.home h2 {
-  padding-top: 2em;
+.cover-list-heading {
+  font-size: 2em;
+  margin-top: 2em;
+  margin-bottom: 0;
 }
 
 .secondary h1 {
@@ -37,10 +47,6 @@ ul.list-unstyled {
 
 .about {
   text-align: left;
-}
-
-.about p, .music p, .music ol {
-  font-size: 16px;
 }
 
 album img {

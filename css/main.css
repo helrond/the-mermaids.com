@@ -1,76 +1,34 @@
-@import url("//fonts.googleapis.com/css?family=Crimson+Text");
-
-@font-face {
-  font-family: 'Archer-Semibold';
-  src: url('../fonts/Archer-Semibold.eot');
-  src: url('../fonts/Archer-Semibold.woff2') format('woff2'),
-       url('../fonts/Archer-Semibold.woff') format('woff'),
-       url('../fonts/Archer-Semibold.ttf') format('truetype'),
-       url('../fonts/Archer-Semibold.svg#Archer-Semibold') format('svg'),
-       url('../fonts/Archer-Semibold.eot?#iefix') format('embedded-opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Archer-Medium';
-  src: url('../fonts/Archer-Medium.eot');
-  src: url('../fonts/Archer-Medium.woff2') format('woff2'),
-       url('../fonts/Archer-Medium.woff') format('woff'),
-       url('../fonts/Archer-Medium.ttf') format('truetype'),
-       url('../fonts/Archer-Medium.svg#Archer-Medium') format('svg'),
-       url('../fonts/Archer-Medium.eot?#iefix') format('embedded-opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 body {
   font-size: 18px;
-  font-family: "Archer-Medium", Times, serif;
+  font-family: "Crimson Text", Times, serif;
+  text-transform: uppercase;
 }
 
-a, a:focus, a:hover {
-    color: #BFA26B;
+p.lead {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+ul.list-unstyled {
+  list-style: none;
+  padding: 0;
 }
 
 .masthead-brand {
   color: #BFA26B;
 }
 
-.masthead-nav > .active > a, .masthead-nav > .active > a:hover, .masthead-nav > .active > a:focus {
-    color: #fff;
-    border-bottom-color: #BFA26B;
+.home h1 {
+  font-size:4em;
+  font-weight: normal;
+  margin-bottom: 0;
 }
 
-.home h1 {font-size:4em;letter-spacing: -2px;word-spacing: -2px;color: #BFA26B}
-
-.modal-content {
-    color: #333;
-}
-
-.modal-header {
-	text-shadow: none;
-}
-
-.modal-body, .modal-footer {
-	font-weight: normal;
-	text-shadow: none;
-	text-align: left;
-}
-
-blockquote {
-	border-left:none;
-	padding: 0 20px;
-	margin:0 0 10px;
-	font-size:inherit;
-}
-
-.home {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg-home.jpg") no-repeat top center fixed;
-  opacity: 0
+.home h2 {
+  padding-top: 2em;
 }
 
 .secondary h1 {
@@ -83,10 +41,6 @@ blockquote {
 
 .about p, .music p, .music ol {
   font-size: 16px;
-}
-
-.site-wrapper-inner.full {
-  vertical-align: 0;
 }
 
 album img {

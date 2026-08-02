@@ -57,11 +57,19 @@ body {
  * Header
  */
 
- .nav-wrapper {
+.masthead-brand {
+  display: none;
+}
+
+.nav-wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
- }
+  justify-content: space-around;
+}
+
+.masthead-nav {
+  padding-left: 0;
+}
 
 .masthead-nav > li {
   display: inline-block;
@@ -121,7 +129,7 @@ body {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .masthead,
   .mastfoot,
   .cover-container {
@@ -131,6 +139,12 @@ body {
   .masthead {
     position: fixed;
     top: 0;
+  }
+  .masthead-brand {
+    display: inline
+  }
+  .nav-wrapper {
+    justify-content: space-between;
   }
   .mastfoot {
     position: fixed;

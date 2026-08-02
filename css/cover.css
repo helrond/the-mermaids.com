@@ -53,7 +53,6 @@ body {
   padding: 20px;
 }
 
-
 /*
  * Header
  */
@@ -91,6 +90,10 @@ body {
   border-bottom-color: #000;
 }
 
+.mastfoot.full, .masthead.full {
+  position: relative;
+}
+
 
 /*
  * Cover
@@ -98,6 +101,10 @@ body {
 
 .cover {
   padding: 0 20px;
+}
+
+.cover.secondary {
+  text-align: left;
 }
 
 /*

@@ -153,6 +153,9 @@ body {
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
+  }
+  
+  .site-wrapper-inner.full {
     min-height: 100vh;
   }
 }
